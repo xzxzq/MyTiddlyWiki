@@ -2,7 +2,7 @@
     {
         "created": "20230704034244846",
         "creator": "xzxzq",
-        "tags": "[[TiddlyWiki 简易指南]] ? .",
+        "tags": "[[TiddlyWiki 简易指南]] ? . !",
         "caption": "（三）筛选器与双链功能\n（1）双链：嵌入和链接（重要）\nhttps://keatonlao.github.io/tiddlywiki-xp/#WikiText\n嵌入（Transclusion）：\n您可以使用嵌入符号将一个条目的内容合并到另一个条目的内容中：\n 嵌入一个单独的条目，结果是 MyTiddler 条目的 text 字段（文本字段，即主要内容字段）的内容，被呈现在当前条目内。\n嵌入文本引用\n您也可以用一个 TextReference（文本引用）代替条目标题：\n\n\n 嵌入指定条目的指定字段\n 嵌入当前条目的指定字段\n 嵌入指定数据条目的指定索引属性\n 嵌入当前数据条目的指定索引属性\n\n通过筛选后的嵌入\n可以使用类似的语法来嵌入与指定过滤器匹配的条目列表\n\n链接（Linking）：两个方括号\nWikiText 的关键功能是能够链接到其他条目或外部网站。\n手动链接，按标题链接给一个条目：\n\n[[Tiddler Title]]\n\n链接到条目并指定链接显示的文本：\n\n[[显示的链接标题|Tiddler Title]]\n\n您还可以从编辑器工具栏创建链接。 点击链接，然后搜索并选择一个条目。\n驼峰式（CamelCase）链接\n对于符合 CamelCase 规则（大写字母出现在单词中部）的条目标题，只需键入标题不用带双方括号即可自动创建链接。\n你可以通过在前面加 ~ 来阻止被自动识别为驼峰式链接。 例如：\n\n~HelloThere 不是一个链接\n~http://google.com/ 是一个链接\n\n\nHelloThere 不是一个链接\nhttp://google.com/ 是一个链接\n\n外部链接\n要链接到外部资源 ，如网站或文件，请键入其_完整_ URL，包括 URI 方案，如协议（例如 http://、file://）或 mailto：\n\nhttp://tiddlywiki.com/\n[[TW5|http://tiddlywiki.com/]]\n[[我的邮件|mailto:me@where.net]]\n\n为了使此语法正常工作，URL 必须被识别为 URL。 否则，它将被视为条目标题。 因此，如果你要想使用相对路径链接到可定位的资源，请使用扩展语法：\n相对路径：引用的文件相对参照文件的路径位置。“../” 表示上一级目录开始；“./” 表示当前同级目录开始；“/” 表示根目录开始。\n\n[ext[Open file|index.html]]\n[ext[Open file|./index.html]]\n[ext[Open file|../README.md]]\n\n扩展语法当然也适用于完整的 URL，但在这种情况下，它不是必需的：\n\n[ext[http://tiddlywiki.com]]\n[ext[TW5|http://tiddlywiki.com]]\n\n嵌入、链接宏筛选器以及小部件之间的异同\n嵌入是 ，链接是 两个方括号、宏是 、筛选器 [操作符 [参数] step step]、小部件是 Undefined widget 'xxx'",
         "priority": "0",
         "interval": "1",
@@ -13,7 +13,7 @@
         "annotate-suffix": "\n\n    \n1\n    \n\n    \n\n    \n    \n        \n          ",
         "annotate-colour": "LightSkyBlue",
         "annotate-blend-mode": "multiply",
-        "modified": "20230704034244846",
+        "modified": "20230706074345666",
         "modifier": "xzxzq",
         "title": "TiddlyWiki 简易指南/摘录句子 1"
     }
